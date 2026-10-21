@@ -9,8 +9,8 @@ const person = {
 const team = players;
 const team1 = [];
 for(const p of players) team1.push(p);
-const copy = {};
-for(const key of person) copy[key] = person[key];
+const cap1 = {};
+for(const key of person) cap1[key] = person[key];
 
 window.players = players;
 window.person = person;
